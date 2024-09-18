@@ -1,0 +1,11 @@
+name: Hi Diandra
+
+on: [push]
+
+jobs:
+  hola: 
+      runs-on: ubuntu-latest
+
+      steos:
+        - name: Hola Mundo
+        run: echo "Hola mundo"
